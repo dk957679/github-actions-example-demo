@@ -12,7 +12,7 @@ public class DockerDemoApplication {
 	@GetMapping("/message")
 	public String getMessage()
 	{
-		return "Welcome to java Docker test application !!!";
+		return "Welcome to java mave project deploy using Github-Actions !!!";
 	}
 
 	public static void main(String[] args) {
